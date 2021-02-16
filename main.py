@@ -25,7 +25,7 @@ NB.predict(X_validation_features)
 
 LR = LogisticRegressionModel()
 
-LR.fit(X, y, max_iters=5000, lr=0.01, tol=0.0005)
+LR.fit(X, y, max_iters=5000, lr=0.01, tol=0.0001)
 
 LR.save_parameters()
 
